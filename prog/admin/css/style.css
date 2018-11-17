@@ -1,0 +1,97 @@
+body {
+
+         background-color: #EFEFEF;
+
+      }
+.loginBox {
+	background-color:#ffffff;
+	padding:14px;
+}
+.txt {
+	margin-bottom:4px;
+}
+.btnGiris {
+	background:#3ab83c;
+	min-width:160px;
+	border:1px solid #2d9c2f;
+	padding:6px;
+	float:right;
+	color:#ffffff;
+}
+.btnGiris:hover, .btnGiris:after, .btnGiris:focus {
+	transition:0.4s;
+	background:#2d9c2f;
+	color:#ffffff;
+}
+.loginBaslik {
+	border-bottom:1px dashed #c1c1c1;
+}
+footer {
+	padding:4px;
+	color:#bdbdbd;
+}
+footer p {
+	margin:0;
+}
+.btnDuzenle {
+	background-color:#cca52c;
+	color:#ffffff;
+	padding:8px;
+	width:32px !important;
+	height:32px;
+	border-radius:50%;
+	margin-right:2px;	
+}
+.btnDuzenle:hover, .btnDuzenle:after, .btnDuzenle:focus {
+	background-color:#e7c455;
+	color:#ffffff;
+	text-decoration:none;
+}
+.btnSil {
+	background-color:#d82727;
+	color:#ffffff;
+	padding:8px;
+	width:32px !important;
+	height:32px;
+	border-radius:50%;
+}
+.btnSil:hover, .btnSil:after, .btnSil:focus {
+	background-color:#fb5a5a;
+	color:#ffffff;
+	text-decoration:none;
+}
+.btnOnay {
+	background-color:#3ab83c;
+	color:#ffffff;
+	padding:8px;
+	width:32px !important;
+	height:32px;
+	border-radius:50%;
+}
+.btnOnay:hover, .btnOnay:after, .btnOnay:focus {
+	background-color:#58e15a;
+	color:#ffffff;
+	text-decoration:none;
+}
+.btnMavi {
+	background-color: #337ab7;
+	min-width:160px;
+	border:1px solid #2e6da4;
+	padding:6px;
+	float:right;
+	color:#ffffff;
+}
+.btnMavi:hover, .btnMavi:after, .btnMavi:focus {
+	transition:0.4s;
+	background:#2e6da4;
+	color:#ffffff;
+}
+.linkSag {
+	float:right;
+	font-size:16px;
+	display:block;
+}
+.sayfala {
+	padding:10px;
+	min-width:200px !important;
+}

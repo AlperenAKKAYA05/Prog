@@ -1,0 +1,68 @@
+/*!
+ * Alperen AKKAYA | Crpsem |  
+ *	instagram.com/alperenakkaya05 #d9e154
+ */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('genel.css');
+body {
+    padding-top: 70px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.container a {
+	color:#222222 !important;
+}
+/* Menü Düzenlemeleri HBLOG */
+.navbar-inverse {
+	background-color:#d9e154 !important;
+	border-color:transparent !important;
+	color:#ffffff !important;
+}
+.navbar-inverse .navbar-brand {
+	color:#222222 !important;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color:#000000;
+}
+.navbar-inverse .navbar-toggle {
+	border-color:#ffffff !important;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color:#000000 !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:#222222 !important;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color:black !important;
+	text-shadow:1px 2px 3px #000000;
+	transition:0.4s;
+}
+/* Menü Düzenlemeleri Bitti */
+
+/* Sayfalama Tasarımı */
+.pagination>li>a, .pagination>li>span {
+	color:#222222 !important;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	color:#222222 !important;
+	background-color:#d9e154 !important;
+	border-color:#000000 !important;
+}
+/* Sayfalama Tasarımı Bitti */
+
+/* Sağ İçerikler */
+.panel-default {
+	border-color:#d9e154 !important;
+}
+.panel-default>.panel-heading {
+	background-color:#d9e154 !important;
+	border-color:#d9e154 !important;
+	color:#222222 !important;
+}
+/* Sağ İçerikler Bitti */
+.form-control:focus {
+	border-color:#000000;
+}
+footer {
+    margin: 50px 0;
+}

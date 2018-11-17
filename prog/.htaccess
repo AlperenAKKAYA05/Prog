@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} /+[^\.]+$ 
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([0-9a-zA-Z-_]+)(/?)$ index.php?do=icerik&url=$1
+RewriteRule ^uye/([0-9a-zA-Z-_]+)(/?)$ index.php?do=uye&url=$1
+RewriteRule ^kategori/([0-9a-zA-Z-_]+)/?(([0-9]+)?)(/?)$ index.php?do=kategori&url=$1&s=$2 [L,NC]
+RewriteRule ^yazar/([0-9a-zA-Z-_]+)/?(([0-9]+)?)(/?)$ index.php?do=yazar&url=$1&s=$2 [L,NC]
+RewriteRule ^sayfa/([0-9a-zA-Z-_]+)/?(([0-9]+)?)(/?)$ index.php?s=$1 [L,NC]
+RewriteRule ^p/([0-9a-zA-Z-_]+)(/?)$ index.php?do=sayfa&url=$1
+RewriteRule ^ara.html(/?)$ index.php?do=ara [L,QSA]
+
